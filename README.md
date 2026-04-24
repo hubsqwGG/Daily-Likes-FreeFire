@@ -30,7 +30,7 @@ A Frifas API permite que desenvolvedores integrem a funcionalidade de envio de l
       "conta": {
         "nome_conta": "VEM_X1_BUT11",
         "id_conta": "11190213202",
-        "regiao": "BR"
+        "region": "BR"
       },
       "likes": {
         "antes": 26637,
@@ -53,7 +53,6 @@ A Frifas API permite que desenvolvedores integrem a funcionalidade de envio de l
 | :---------- | :------------------ | :--------------------------------------------------------------------- |
 | `400`       | `ID_REQUIRED`       | O parâmetro `id` não foi informado.                                    |
 | `400`       | `INVALID_REQUEST`   | O UID fornecido é inválido.                                            |
-| `401`       | `UNAUTHORIZED`      | Chave de API inválida ou não informada.                                |
 | `404`       | `PLAYER_NOT_FOUND`  | Jogador não encontrado ou UID inexistente.                             |
 | `409`       | `AUTOLIKE_ACTIVE`   | A conta está registrada no auto-like e não aceita likes manuais.       |
 | `429`       | `REQUEST_BLOCKED`   | O UID já recebeu likes nas últimas 24 horas.                           |
