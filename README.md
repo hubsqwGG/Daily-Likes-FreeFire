@@ -1,4 +1,4 @@
-# Frifas API - Documentação Técnica Completa
+# Frifas API - Documentação Completa
 
 > Sistema centralizado para automação de likes e gerenciamento de ciclos de auto-like no Free Fire.
 
