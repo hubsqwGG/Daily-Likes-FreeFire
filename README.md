@@ -240,7 +240,7 @@ Notificações automáticas via POST (JSON) enviadas após o ciclo diário.
 ## Regras de Negócio
 
 *   **Contabilização:** Uma requisição só é debitada do limite diário se o sistema confirmar o envio de **150 ou mais likes**.
-*   **Timeout:** O tempo limite para operações de envio manual é de **20 minutos**.
+*   **Timeout:** O tempo limite para operações de envio manual é de **20 segundos**.
 *   **Webhooks:** O servidor de destino deve responder em até **10 segundos**.
 
 ---
