@@ -1,8 +1,8 @@
-# LIKES API FF - Documentação Completa
+# Frifas Likes API - Documentação Completa
 
 > Sistema centralizado para automação de likes e gerenciamento de ciclos de auto-like no Free Fire.
 
-A Frifas API oferece uma infraestrutura robusta para desenvolvedores que buscam integrar funcionalidades de engajamento automatizado. Esta documentação descreve detalhadamente os endpoints, payloads de resposta e tratamentos de erro.
+A Frifas Likes API oferece uma infraestrutura robusta para desenvolvedores que buscam integrar funcionalidades de engajamento automatizado. Esta documentação descreve detalhadamente os endpoints, payloads de resposta e tratamentos de erro.
 
 ---
 
