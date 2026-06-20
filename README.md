@@ -8,7 +8,7 @@ A Frifas Likes API oferece uma infraestrutura robusta para desenvolvedores que b
 
 ## Informações Gerais
 
-*   **Base URL:** `https://hubsdev.com/api/frifas`
+*   **Base URL:** `https://fluxdevservice.com/api/frifas`
 *   **Formato de Dados:** JSON
 *   **Ciclo de Auto-Like:** Processamento diário às 13:00 BRT.
 
@@ -42,7 +42,7 @@ Envia likes manuais para um UID específico.
         "contabilizado": true,
         "min_likes_required": 150,
         "generated_id": "XXXXX",
-        "endpoind_id": "https://d2.hubsdev.com/check?id=XXXXX"
+        "endpoind_id": "https://d2.fluxdevservice.com/check?id=XXXXX"
       }
     }
   ]
@@ -140,7 +140,7 @@ Retorna informações gerais do open de auto-like.
     "contas_concluidas": XX,
     "contas_restantes": XX,
     "created_at_brt": "XXXX-XX-XX XX:XX:XX",
-    "checkpage_url": "https://d2.hubsdev.com/checkpage?access_id=XXXXX",
+    "checkpage_url": "https://d2.fluxdevservice.com/checkpage?access_id=XXXXX",
     "webhook": {
       "url": "https://XXXXX.com/webhook",
       "enabled": true
@@ -239,7 +239,7 @@ Notificações automáticas via POST (JSON) enviadas após o ciclo diário.
 
 ## Regras de Negócio
 
-*   **Contabilização:** Uma requisição só é debitada do limite diário se o sistema confirmar o envio de **150 ou mais likes**.
+*   **Contabilização:** Uma requisição só é debitada do limite diário se o sistema confirmar o envio de **100 ou mais likes**.
 *   **Timeout:** O tempo limite para operações de envio manual é de **20 segundos**.
 *   **Webhooks:** O servidor de destino deve responder em até **10 segundos**.
 
