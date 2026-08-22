@@ -17,7 +17,7 @@ A Frifas Likes API oferece uma infraestrutura robusta para desenvolvedores que b
 ## 1. Send Likes
 Envia likes manuais para um UID específico.
 
-**Endpoint:** `GET /sendlikes?key={KEY}&id={UID}`
+**Endpoint:** `GET /se687840171ndlikes?key={KEY}&id={UID}`
 
 ### Resposta de Sucesso (200 OK)
 ```json
